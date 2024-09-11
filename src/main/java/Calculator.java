@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
-public class HelloWorld {
-    public static void main(String[] args) {
-        //két egész szám bekérése
+public class Calculator {
+        public static void main(String[] args) {
         System.out.println("Kéren adja meg az 1. számot:");
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
@@ -12,7 +11,7 @@ public class HelloWorld {
 
 
 
-        System.out.println("Összege: " + (a+b));
+        System.out.println("A két érték összege: " + (a+b));
         System.out.println("A két érték szorzata: " + (a*b));
     }
 }
